@@ -30,6 +30,7 @@ function App() {
   }
 
   window.addEventListener('load', fadeOut);
+console.log(app);
 
   return (
     <section className="wrapper">
