@@ -1,24 +1,24 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import SnopestadHeader from "./components/SnopestadHeader.vue";
 </script>
 
 <template>
   <header>
     <img
-      alt="Vue logo"
+      alt="Snopestad logo"
       class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
+      src="@/assets/Snopestad-logo.png"
+      height="300"
     />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <SnopestadHeader msg="Snopestad" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/">Hjem</RouterLink>
+        <RouterLink to="/about">Om oss</RouterLink>
+        <RouterLink to="/history">Historie</RouterLink>
       </nav>
     </div>
   </header>
