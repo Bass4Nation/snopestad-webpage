@@ -11,7 +11,7 @@ defineProps({
   <div class="greetings">
     <h1 class="blue">Snopestad Gård</h1>
     <h3>
-      Snopestad går finnes på adressen Ertevannveien 1890 Rakkestad. Her kan du lese mer om Snopestad Gård
+      Snopestad gård finnes ved Ertevannet i Rakkestad. Her kan du lese mer om Snopestad Gård
     </h3>
   </div>
 </template>
