@@ -1,9 +1,8 @@
 
 <template>
-<h1>Post from Snopestad's Farmers</h1>
+    <h1>Innlegg fra bønder på Snopestad Gård</h1>
 
 </template>
 
 <style scoped>
-
 </style>

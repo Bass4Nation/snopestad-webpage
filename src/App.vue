@@ -1,16 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import SnopestadHeader from "./components/SnopestadHeader.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
   <header>
-    <img
-      alt="Snopestad logo"
-      class="logo"
-      src="@/assets/Snopestad-logo.png"
-      height="300"
-    />
+    <img alt="Snopestad logo" class="logo" src="@/assets/Snopestad-logo.png" height="300" />
 
     <div class="wrapper">
       <SnopestadHeader msg="Snopestad" />
@@ -22,8 +18,11 @@ import SnopestadHeader from "./components/SnopestadHeader.vue";
       </nav>
     </div>
   </header>
-
-  <RouterView />
+  <section class="mainView">
+    <RouterView />
+  </section>
+  <!-- <RouterView /> -->
+  <Footer />
 </template>
 
 <style scoped>
@@ -34,7 +33,7 @@ header {
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto;
 }
 
 nav {
@@ -73,6 +72,9 @@ nav a:first-of-type {
     margin: 0 2rem 0 0;
   }
 
+.mainView {
+  margin-top: 100px;
+}
   header .wrapper {
     display: flex;
     place-items: flex-start;
