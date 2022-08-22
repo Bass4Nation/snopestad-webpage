@@ -6,7 +6,7 @@ import Footer from "./components/Footer.vue";
 
 <template>
   <header>
-    <img alt="Snopestad logo" class="logo" src="@/assets/Snopestad-logo.png"  />
+    <img alt="Snopestad logo" class="logo" src="@/assets/Snopestad-logo.png" />
 
     <div class="wrapper">
       <SnopestadHeader msg="Snopestad" />
@@ -35,7 +35,8 @@ header {
 .logo {
   display: block;
   margin: 0 auto;
-  height: 200px;
+  max-width: 100%;
+  max-height: 100vh;
 }
 
 nav {
@@ -76,9 +77,10 @@ nav a:first-of-type {
     height: 300px;
   }
 
-.mainView {
-  margin-top: 100px;
-}
+  .mainView {
+    margin-top: 100px;
+  }
+
   header .wrapper {
     display: flex;
     place-items: flex-start;
