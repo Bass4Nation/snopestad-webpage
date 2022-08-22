@@ -1,14 +1,14 @@
 <!-- PostsAdder.vue -->
 <template>
   <fieldset>
-    <legend>Legg til et nytt innlegg</legend>
+    <legend class="toptext">Legg til et nytt innlegg</legend>
     <label>
-      Tittel:
+      Tittel: <br />
       <input v-model="postsTitle" type="text" />
     </label>
     <br />
     <label>
-      Beskrivelse:
+      Beskrivelse: <br />
       <input v-model="postsDescription" type="text" />
     </label>
     <br />
@@ -52,3 +52,23 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+
+.toptext{
+    text-align: center;
+}
+fieldset{
+    border-radius: 25px;
+    text-align: center;
+}
+input {
+    border-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+button{
+    border-radius: 25px;
+    
+}
+</style>
