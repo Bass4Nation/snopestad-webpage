@@ -13,7 +13,8 @@ import Footer from "./components/Footer.vue";
 
       <nav>
         <RouterLink to="/">Hjem</RouterLink>
-        <RouterLink to="/about">Om oss her.</RouterLink>
+        <RouterLink to="/about">Om oss her
+        </RouterLink>
         <RouterLink to="/equipments">Traktorer og redskaper</RouterLink>
         <RouterLink to="/history">Historie</RouterLink>
       </nav>
